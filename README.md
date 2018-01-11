@@ -1,2 +1,11 @@
-# Povorot
-Дано изображение прямоугольника размером 128 на 128.В нем находятся другие прямоугольники высотой от 10% до 100% высоты изображения и шириной от 10% до 100% ширины изображения. Их количество также варьируется от 1 до 10, причем также варьируется толщина(от 1 до 5) линии отрисовки границ прямоугольника. Каждый такой паттерн из прямоугольников поворачивается на угол от -10 до 10. Таким образом формируется датасет из 10000 изображений с 1-10 повернутыми прямоугольниками внутри. Нужно построить модель, которая каждому повернутому изображению сопостовляет его угол поворота, на тесте показать возвращается ли повернутая картинка в вертикальное положение при повороте на предсказанный улол.
+# Angle-prediction
+The main goal of this project is to build a tensorflow model which predicts an angle of an image rotation. This model takes RGB image with rotated rectangles on it as input and gives this angle of rotatin as output.
+# Description of the input images:
+  *The size of the an input image is 128x128
+  *Training set has 10000 images
+  *Each image has from 1 to 10 rectangles
+  *The width and height of each rectangle ranges from 0.1 to 1 of width and height of the initial image
+  *Width of the rectangle's borders ranges between 1 and 5 pixels
+  *The center of each rectangle can be in any pixel of the initial image
+  *The pattern of this rectangles randomly rotates between -10 and 10 degrees
+
