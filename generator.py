@@ -41,6 +41,7 @@ def showImagesHorizontally(list_of_files):
     for i in range(number_of_files):
         a=fig.add_subplot(1,number_of_files,i+1)
         image = list_of_files[i]
+        image = image.rotate(-predicted[i])
         plt.imshow(image,cmap='Greys_r')
         plt.title(("True= {}   Predicted= {}").format(y_test[i],predicted[i]))
         plt.axis('off')
