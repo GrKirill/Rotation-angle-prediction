@@ -9,7 +9,10 @@ The main goal of this project is to build a tensorflow model which predicts an a
   * The center of each rectangle can be in any pixel of the initial image
   * The pattern of this rectangles randomly rotates between -10 and 10 degrees
 # Solution
-Solution consists of two ipython notebooks. The first is data_generator with examples of generated images. And the second is model with a code for CNN's training and training results including loss function's plot. This notebook also include results on test set as the final goal of this project
+Solution consists of two ipython notebooks. The first is data_generator([here](https://github.com/NevzaimnayaLove/angle-prediction/blob/master/Generator.ipynb)) with examples of generated images. And the second is model with a code for CNN's training and training results including loss function's plot ([here](https://github.com/NevzaimnayaLove/angle-prediction/blob/master/Povorot.ipynb). This notebook also include results on test set as the final goal of this project.
+
+<img src="result.png" width="900px">
+
 # Used libraries
  * NumPy
  * Pandas
