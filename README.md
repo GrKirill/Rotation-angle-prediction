@@ -1,4 +1,4 @@
-# Angle-prediction
+# Angle-rotation-prediction
 The main goal of this project is to build a tensorflow model which predicts an angle of an image rotation. This model takes an RGB image with rotated rectangles on it as input and gives this angle of rotatin as output.
 # Description of the input images:
   * The size of the an input image is 128x128
